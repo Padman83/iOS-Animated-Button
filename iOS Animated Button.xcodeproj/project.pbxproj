@@ -13,6 +13,7 @@
 		1FEF695C241B385C0093266C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FEF695A241B385C0093266C /* Main.storyboard */; };
 		1FEF695E241B385E0093266C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FEF695D241B385E0093266C /* Assets.xcassets */; };
 		1FEF6961241B385E0093266C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FEF695F241B385E0093266C /* LaunchScreen.storyboard */; };
+		1FEF6969241B3DB00093266C /* AnimatedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF6968241B3DB00093266C /* AnimatedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1FEF695D241B385E0093266C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FEF6960241B385E0093266C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FEF6962241B385E0093266C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FEF6968241B3DB00093266C /* AnimatedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				1FEF6956241B385C0093266C /* SceneDelegate.swift */,
 				1FEF6958241B385C0093266C /* ViewController.swift */,
 				1FEF695A241B385C0093266C /* Main.storyboard */,
+				1FEF6968241B3DB00093266C /* AnimatedButton.swift */,
 				1FEF695D241B385E0093266C /* Assets.xcassets */,
 				1FEF695F241B385E0093266C /* LaunchScreen.storyboard */,
 				1FEF6962241B385E0093266C /* Info.plist */,
@@ -140,6 +143,7 @@
 			files = (
 				1FEF6959241B385C0093266C /* ViewController.swift in Sources */,
 				1FEF6955241B385C0093266C /* AppDelegate.swift in Sources */,
+				1FEF6969241B3DB00093266C /* AnimatedButton.swift in Sources */,
 				1FEF6957241B385C0093266C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,7 +297,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Padman-Selvamanickam.iOS-Animated-Button";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -310,7 +314,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Padman-Selvamanickam.iOS-Animated-Button";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

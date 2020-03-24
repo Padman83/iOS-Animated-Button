@@ -9,6 +9,18 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    
+    @IBAction func buyButtonPressed(_ sender: UIButton) {
+        sender.buy()
+    }
+    
+    
+    @IBAction func sellButtonPressed(_ sender: UIButton) {
+        sender.sell()
+    }
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
